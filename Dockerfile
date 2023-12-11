@@ -5,7 +5,6 @@ RUN pip install poetry
 WORKDIR /app
 ADD . /app
 
-RUN poetry shell
 RUN poetry install
 
 ENV PORT 8080
