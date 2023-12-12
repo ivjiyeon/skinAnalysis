@@ -1,0 +1,3 @@
+config:
+  face-generation:namespace: default
+  face-generation:replicas: "1"
