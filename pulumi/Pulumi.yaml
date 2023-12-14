@@ -1,6 +1,6 @@
 name: face-generation
 runtime:
   name: python
-  options:
-    virtualenv: venv
+setup:
+  run: poetry install --no-root
 description: A Python program to deploy a web application onto a Kubernetes cluster

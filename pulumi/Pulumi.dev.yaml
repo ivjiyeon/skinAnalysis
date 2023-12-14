@@ -1,3 +1,5 @@
 config:
   face-generation:namespace: default
   face-generation:replicas: "1"
+  gcp:project: face-generation-406413
+  gcp:zone: asia-east2-a
